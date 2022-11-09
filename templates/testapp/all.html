@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Details </title>
+</head>
+<body>
+<form>
+
+    <h1>Please confirm below details..</h1><hr>
+{% csrf_token %}
+
+    <ul>
+        <li>{{fname}}</li>
+        <li>{{surname}}</li>
+        <li>{{city}}</li>
+    </ul>
+
+</form>
+</body>
+</html>
